@@ -130,7 +130,7 @@ Use the command called cat on the file to show its contents.
 Describe what happened below.
 ----------
 
-
+I think it printed the whole book
 
 ==========
 17. That was a lot of text.  Let's find ways to limit it.  Using the same file...
