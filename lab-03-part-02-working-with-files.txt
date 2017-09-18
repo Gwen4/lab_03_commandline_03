@@ -142,7 +142,8 @@ Use the command, head, on the file to show the contents of the beginning of the 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
 
-
+head books/other/pg1232.txt
+Title: The Prince
 
 ==========
 18. Using the same file again!
@@ -154,7 +155,15 @@ Use tail on the file to show the contents of the end of the file.
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
 
+tail books/other/pg1232.txt
+Most people start at our Web site which has the main PG search facility:
 
+     http://www.gutenberg.org
+
+This Web site includes information about Project Gutenberg-tm,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
 
 ==========
 19. Using the same file...
@@ -166,7 +175,9 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
 
-
+less books/other/pg1232.txt
+spacebar took you to the start of the file and only let you scroll throughout the text
+"q" took you to the bottom where the prompt was
 
 ==========
 20. Describe what situations you would use the following commands for viewing files: less, more, cat, tail, head
@@ -174,14 +185,15 @@ Write the command that you used below.  Describe what spacebar and q does after 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
 
-
+if you want to read the end of something like notes or the bibliography
 
 ==========
 21.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
 
-
+52639 wc
 
 ==========
 22.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
+5063 wc
